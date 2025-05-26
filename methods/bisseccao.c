@@ -4,8 +4,6 @@
 
 void showinteraction (int interactions, value_type fa, value_type fb, value_type x, value_type fx, value_type bminusa) {
     printf("%d:\t", interactions);
-    // printf("fa = %.12llf;\t", fa);
-    // printf("fb = %.12llf;\t", fb);
     printf("x = %.12llf;\t", x);
     printf("f(x) = %.12llf;\t", fx);
     printf("b-a = %.12llf\n", bminusa);

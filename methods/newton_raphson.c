@@ -45,7 +45,7 @@ int main () {
     /* exibe na tela os valores passados como argumento */
     showinteraction(interactions, x_k, fx);
 
-    /* o corpo do método do ponto fixo */
+    /* o corpo do método de newton raphson */
     do {
         x_kminus1 = x_k;
         x_k = phiNR(f, derivative, x_kminus1);

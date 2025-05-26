@@ -6,7 +6,7 @@ value_type phiSec (function_type f, value_type x_k, value_type x_kminus1) {
     return (x_kminus1 * f(x_k) - x_k * f(x_kminus1)) / (f(x_k) - f(x_kminus1));
 }
 
-void showinteraction (int interactions, value_type x_kminus1, value_type x_k, value_type fx) {
+void showinteraction (int interactions, value_type x_k, value_type x_kminus1, value_type fx) {
     printf("%d:\t", interactions);
     printf("x_k = %.12llf;\t", x_k);
     printf("x_kminus1 = %.12llf;\t", x_kminus1);

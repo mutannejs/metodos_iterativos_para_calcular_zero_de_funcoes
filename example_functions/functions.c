@@ -64,11 +64,11 @@ const value_type episilon3 = 0.000001;
 const value_type range3[2] = {2, 3};
 
 value_type f3 (value_type x) {
-    return x*log(x) - 1;
+    return x*log10(x) - 1;
 }
 
 value_type f3_derivative (value_type x) {
-    return log(x) + 1;
+    return log10(x) + 1;
 }
 
 value_type f3_phi (value_type x) {
